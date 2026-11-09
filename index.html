@@ -1,0 +1,561 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta name="description" content="Read the GPS Mitra Location Changer Privacy Policy to understand how location permissions, mock GPS features, maps and third-party services are used.">
+
+<meta name="theme-color" content="#f5f9ff">
+
+<title>Privacy Policy | GPS Mitra Location Changer</title>
+
+<style>
+:root {
+  --blue: #1677ed;
+  --cyan: #20bfe8;
+  --ink: #172b4d;
+  --muted: #71839b;
+  --line: #e8eef7;
+  --surface: #ffffff;
+  --background: #f4f8ff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Arial, sans-serif;
+  background:
+    radial-gradient(circle at 10% 5%, #e4f3ff 0, transparent 28%),
+    radial-gradient(circle at 95% 15%, #e8eaff 0, transparent 26%),
+    var(--background);
+  color: var(--ink);
+  line-height: 1.75;
+}
+
+a {
+  color: var(--blue);
+  text-decoration: none;
+  overflow-wrap: anywhere;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.topbar {
+  background: rgba(255,255,255,.88);
+  border-bottom: 1px solid rgba(220,230,245,.8);
+  backdrop-filter: blur(16px);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.nav {
+  max-width: 1080px;
+  margin: auto;
+  padding: 15px 22px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  font-size: 20px;
+  font-weight: 800;
+  letter-spacing: -.5px;
+}
+
+.logo {
+  width: 39px;
+  height: 39px;
+  display: grid;
+  place-items: center;
+  border-radius: 13px;
+  color: white;
+  font-size: 19px;
+  background: linear-gradient(135deg, var(--blue), var(--cyan));
+  box-shadow: 0 5px 15px #1688e83d;
+}
+
+.nav-label {
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.hero {
+  padding: 65px 20px 48px;
+  text-align: center;
+}
+
+.hero-tag {
+  display: inline-block;
+  padding: 7px 14px;
+  border: 1px solid #cde6ff;
+  border-radius: 30px;
+  color: #1677ed;
+  background: #ffffffa8;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: .7px;
+  text-transform: uppercase;
+}
+
+.hero h1 {
+  margin: 19px 0 10px;
+  font-size: clamp(32px, 6vw, 48px);
+  line-height: 1.15;
+  letter-spacing: -1.5px;
+}
+
+.hero p {
+  max-width: 620px;
+  margin: auto;
+  color: var(--muted);
+  font-size: 16px;
+}
+
+.updated {
+  margin-top: 20px;
+  color: #7b8ba2;
+  font-size: 13px;
+}
+
+.container {
+  width: min(920px, calc(100% - 32px));
+  margin: 0 auto 65px;
+}
+
+.policy {
+  background: var(--surface);
+  border: 1px solid #e6edf7;
+  border-radius: 22px;
+  padding: clamp(23px, 5vw, 52px);
+  box-shadow: 0 18px 55px rgba(34,75,130,.07);
+}
+
+.notice {
+  display: flex;
+  gap: 14px;
+  align-items: flex-start;
+  padding: 19px;
+  border: 1px solid #cce7ff;
+  border-radius: 15px;
+  background: linear-gradient(120deg,#f0f8ff,#f5fcff);
+  margin: 23px 0 32px;
+}
+
+.notice-icon {
+  flex: 0 0 35px;
+  width: 35px;
+  height: 35px;
+  display: grid;
+  place-items: center;
+  border-radius: 11px;
+  color: white;
+  background: linear-gradient(135deg,#1688e8,#22c3e8);
+  font-weight: bold;
+}
+
+.notice strong {
+  display: block;
+  margin-bottom: 4px;
+}
+
+.notice p {
+  margin: 0;
+  color: #526780;
+  font-size: 14px;
+}
+
+.section {
+  padding: 20px 0;
+  border-bottom: 1px solid var(--line);
+  scroll-margin-top: 90px;
+}
+
+.section:last-of-type {
+  border-bottom: none;
+}
+
+.section h2 {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 0 0 13px;
+  font-size: 20px;
+  letter-spacing: -.35px;
+}
+
+.number {
+  width: 31px;
+  height: 31px;
+  flex: 0 0 31px;
+  display: grid;
+  place-items: center;
+  border-radius: 10px;
+  background: #eaf4ff;
+  color: var(--blue);
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.section p {
+  margin: 9px 0;
+  color: #52647c;
+  font-size: 15px;
+}
+
+.section ul {
+  padding-left: 23px;
+  color: #52647c;
+}
+
+.section li {
+  padding: 4px 0;
+}
+
+.permission-list {
+  display: grid;
+  grid-template-columns: repeat(2,minmax(0,1fr));
+  gap: 11px;
+  margin: 18px 0;
+}
+
+.permission {
+  padding: 13px 15px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: #fbfdff;
+  color: #425772;
+  font-size: 14px;
+}
+
+.permission span {
+  color: var(--blue);
+  margin-right: 7px;
+}
+
+.contact-card {
+  margin-top: 20px;
+  padding: 23px;
+  border-radius: 16px;
+  background: linear-gradient(125deg,#eef6ff,#f0fbff);
+  border: 1px solid #d9edff;
+}
+
+.contact-card strong {
+  display: block;
+  font-size: 18px;
+}
+
+.contact-card p {
+  margin: 5px 0;
+  color: #647890;
+}
+
+.footer {
+  text-align: center;
+  padding: 28px 18px 38px;
+  color: #8493a8;
+  font-size: 13px;
+}
+
+.footer strong {
+  color: #52647c;
+}
+
+@media(max-width:600px) {
+  .nav { padding: 12px 17px; }
+  .hero { padding: 48px 18px 35px; }
+  .permission-list { grid-template-columns: 1fr; }
+  .policy { border-radius: 17px; }
+  .section h2 { font-size: 18px; }
+}
+</style>
+</head>
+
+<body>
+
+<div class="topbar">
+  <div class="nav">
+    <div class="brand">
+      <div class="logo">G</div>
+      <span>GPS Mitra Location Changer</span>
+    </div>
+    <div class="nav-label">Privacy Center</div>
+  </div>
+</div>
+
+<header class="hero">
+  <span class="hero-tag">Your Privacy Matters</span>
+  <h1>Privacy Policy</h1>
+  <p>
+    Transparency matters to us. Learn how GPS Mitra Location Changer uses
+    permissions, map services and information to provide
+    its mock GPS location features.
+  </p>
+  <div class="updated">Last Updated: November, 2026</div>
+</header>
+
+<main class="container">
+<article class="policy">
+
+<div class="notice">
+  <div class="notice-icon">i</div>
+  <div>
+    <strong>Important Notice</strong>
+    <p>
+      GPS Mitra Location Changer uses Android's mock location functionality.
+      Users must manually enable Developer Options and select
+      GPS Mitra Location Changer as their mock location app. GPS Mitra Location Changer cannot
+      automatically enable these system settings.
+    </p>
+  </div>
+</div>
+
+<section class="section">
+<h2><span class="number">01</span> Introduction</h2>
+<p>
+Welcome to <strong>GPS Mitra Location Changer</strong>, a mock GPS location
+utility application developed by Pawan Kumar. This Privacy
+Policy explains how the application accesses and uses
+information when you use its features.
+</p>
+<p>
+By using GPS Mitra Location Changer, you acknowledge the practices described
+in this Privacy Policy.
+</p>
+</section>
+
+<section class="section">
+<h2><span class="number">02</span> Information We Collect</h2>
+<p>
+GPS Mitra Location Changer does not require users to create an account or
+sign in. The app does not operate a developer-managed
+account system or backend server for collecting users'
+personal information.
+</p>
+<p>
+The app may access location information and information
+needed to provide its selected mock location and map
+features. The selected mock coordinates are provided to
+Android's mock location system on the device.
+</p>
+<p>
+We do not intentionally transmit users' selected mock
+coordinates to a developer-operated server.
+</p>
+</section>
+
+<section class="section">
+<h2><span class="number">03</span> Permissions Used</h2>
+<p>
+Depending on the features you use and your Android version,
+GPS Mitra Location Changer may request the following permissions:
+</p>
+
+<div class="permission-list">
+  <div class="permission"><span>●</span> Precise Location</div>
+  <div class="permission"><span>●</span> Approximate Location</div>
+  <div class="permission"><span>●</span> Internet Access</div>
+  <div class="permission"><span>●</span> Network State</div>
+</div>
+
+<p>
+Permissions are controlled by Android and the user.
+You can review or revoke applicable permissions at any
+time through your device's Settings.
+</p>
+<p>
+The app's actual permission requirements may vary depending
+on Android version and the features being used.
+</p>
+</section>
+
+<section class="section">
+<h2><span class="number">04</span> Location Services and Mock GPS</h2>
+<p>
+GPS Mitra Location Changer allows users to select a location and provide
+simulated GPS coordinates through Android's mock location
+framework.
+</p>
+<p>
+The availability and behavior of simulated locations may
+depend on Android settings, device configuration and
+whether other applications accept mock location data.
+GPS Mitra Location Changer does not guarantee that every third-party
+application will use or display a simulated location.
+</p>
+<p>
+Mock location functionality is controlled by Android's
+Developer Options and the user's device settings.
+</p>
+</section>
+
+<section class="section">
+<h2><span class="number">05</span> Background Operation</h2>
+<p>
+When the user starts mock location functionality, its
+operation may continue while GPS Mitra Location Changer is in the background,
+subject to the app's implementation, Android restrictions,
+device settings and system process management.
+</p>
+<p>
+Users can stop the mock location functionality using the
+STOP control in the application. Removing the app from
+Recent Apps may also initiate cleanup, subject to Android's
+process lifecycle behavior.
+</p>
+</section>
+
+<section class="section">
+<h2><span class="number">06</span> Maps and Third-Party Services</h2>
+<p>
+GPS Mitra Location Changer uses OpenStreetMap-based map functionality and
+Nominatim place search services to display maps and help
+users find locations.
+</p>
+<p>
+When you load map content or search for a place, your
+device may send requests to these third-party services.
+Such requests may expose technical information including
+your IP address, search queries, requested map areas and
+request details to the respective service providers.
+</p>
+<p>
+Please review their policies:
+</p>
+<ul>
+<li>
+<a href="https://www.openstreetmap.org/"
+target="_blank" rel="noopener noreferrer">
+OpenStreetMap
+</a>
+</li>
+<li>
+<a href="https://osmfoundation.org/wiki/Privacy_Policy"
+target="_blank" rel="noopener noreferrer">
+OpenStreetMap Foundation Privacy Policy
+</a>
+</li>
+<li>
+<a href="https://operations.osmfoundation.org/policies/nominatim/"
+target="_blank" rel="noopener noreferrer">
+Nominatim Usage Policy
+</a>
+</li>
+</ul>
+<p>
+These third-party services operate independently. Their
+data handling practices are governed by their own policies.
+</p>
+</section>
+
+<section class="section">
+<h2><span class="number">07</span> Data Storage and Sharing</h2>
+<p>
+GPS Mitra Location Changer does not currently operate its own server or
+user account database. App settings and preferences may
+be stored locally on your device.
+</p>
+<p>
+Map and place-search requests may be processed by the
+third-party services described in this policy. We do not
+sell users' personal information.
+</p>
+</section>
+
+<section class="section">
+<h2><span class="number">08</span> Advertising</h2>
+<p>
+GPS Mitra Location Changer does not currently display advertisements.
+If advertising services such as Google AdMob are introduced
+in a future version, this Privacy Policy will be updated
+to describe the relevant advertising and data practices.
+</p>
+</section>
+
+<section class="section">
+<h2><span class="number">09</span> Data Security</h2>
+<p>
+We aim to minimize the information handled by GPS Mitra Location Changer.
+However, no method of electronic storage or internet
+transmission can be guaranteed to be completely secure.
+Users should keep their devices and Android software
+updated.
+</p>
+</section>
+
+<section class="section">
+<h2><span class="number">10</span> Children's Privacy</h2>
+<p>
+GPS Mitra Location Changer is not specifically designed for children.
+We do not knowingly collect personal information from
+children through a developer-operated account system
+or backend server.
+</p>
+</section>
+
+<section class="section">
+<h2><span class="number">11</span> Data Retention and Deletion</h2>
+<p>
+GPS Mitra Location Changer does not maintain user accounts or a
+developer-operated database of users' personal information.
+Locally stored app settings can generally be removed by
+clearing app storage or uninstalling the application.
+Third-party services may retain request information
+according to their own policies.
+</p>
+</section>
+
+<section class="section">
+<h2><span class="number">12</span> Policy Updates</h2>
+<p>
+We may update this Privacy Policy when application
+features, services or data practices change. Any revised
+policy will be published on this page with an updated
+revision date.
+</p>
+</section>
+
+<section class="section">
+<h2><span class="number">13</span> Contact Us</h2>
+<p>
+For questions, feedback or privacy-related concerns
+regarding GPS Mitra Location Changer, please contact the developer.
+</p>
+
+
+Email:
+<a href="mailto:rajnayak955466@gmail.com">
+rajnayak955466@gmail.com
+</a>
+</p>
+</div>
+</section>
+
+</article>
+</main>
+
+<footer class="footer">
+  <strong>GPS Mitra Location Changer</strong><br>
+  Privacy Policy · © 2026 GPS Mitra Location Changer<br>
+  All rights reserved.
+</footer>
+
+</body>
+</html>
